@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nur studio</title>
+</head>
+
+<body>
+    <header>
+        <img src="assets/nur logo.webp" alt="Nur studio logo" class="logo" width="60" height="60">
+        <nav>
+            <a href="#gallery">Gallery</a>
+            <a href="#packages">Packages</a>
+            <a href="#testimonals">Testimonies</a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Where your <br>imagination meets<br> reality</h1>
+            <a href="#appointment">Book an Appointment</a>
+        </section>
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="image-container">
+                <img class="first-image" src="assets/image1.png" alt="Gallery Image 1">
+                <img src="assets/image2.png" alt="Gallery Image 2">
+                <img src="assets/image3.png" alt="Gallery Image 3">
+            </div>
+        </section>
+        <section id="packages">
+            <h2>Packages</h2>
+            <div class="card-container">
+                <div class="packages-card">
+                    <h3>Wedding</h3>
+                    <p class="grey">Full studio and field photoshoots</p>
+                    <p class="bold">Starting from 1900 Birr</p>
+                </div>
+                <div class="packages-card">
+                    <h3>Field</h3>
+                    <p class="grey">Field photoshoots for birthdays,baby shower or any other occasions.</p>
+                    <p class="bold">Starting from 5000 Birr</p>
+                </div>
+            </div>
+        </section>
+        <section id="testimonals">
+            <h2>Testimonies</h2>
+            <div class="testimonals-card">
+                <div class="cards">
+                    <div class="profile">
+                        <img class="profile-pic" src="assets/profile1.avif">
+                        <p class="bold black">Daniel Alexander</p>
+                    </div>
+                    <p class="grey">They have the best customer service.</p>
+                </div>
+                <div class="cards">
+                    <div class="profile">
+                        <img class="profile-pic" src="assets/profile2.avif">
+                        <p class="bold black">sophia Elizabeth</p>
+                    </div>
+                    <p class="grey">They have the best customer service.</p>
+                </div>
+                <div class="cards">
+                    <div class="profile">
+                        <img class="profile-pic" src="assets/profile3.jpg">
+                        <p class="bold black">Amelia Rose</p>
+                    </div>
+                    <p class="grey">They have the best customer service.</p>
+                </div>
+
+            </div>
+        </section>
+        <section id="appointment">
+            <h2>Book an Appointment</h2>
+            <div class="form-container">
+                <form>
+                    <label for="phone-no">Phone Number</label>
+                    <input id="phone-no">
+                    <label for="package">Packages</label>
+                    <select id="package">
+                        <option value="" disabled selected>Select a Package</option>
+                        <option value="wedding">Wedding Photography</option>
+                        <option value="portrait">Portrait Photography</option>
+                        <option value="event">Event Photography</option>
+                        <option value="graduation">Graduation Photography</option>
+                        <option value="family">Family Photography</option>
+                        <option value="custom">Custom Package</option>
+                    </select>
+                    <label for="notes">Additional note</label>
+                    <textarea id="notes"></textarea>
+                    <button id="appoint-btn" type="submit">Book</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
